@@ -8,14 +8,15 @@ padding: 0;
     src: url("../fonts/Gilroy-Semibold.ttf");
 }
 
-@font-face {
+@font-face {    
     font-family: 'Merriweather';
     src: url("../fonts/Merriweather-Black.ttf");
 }
 body {
 background-color: #191411;
-font-family: 'Gilory' sans-serif;
+font-family: 'Gilory', sans-serif;
 color: white;
+margin-top: 20px;
 }
 
 .container {
@@ -25,7 +26,7 @@ color: white;
 
 .button {
 border-radius: 8px;
-background:(--, linear-gradient(96deg, #DA8023 0%, #E2B438 100%));
+background: linear-gradient(96deg, #cc6e0f 0%, #c99915 100%);
 width: 260px;
 height: 62px;
 padding: 19px;
@@ -41,7 +42,7 @@ font-size: 18px;
 }
 
 .button:hover {
-    background:(--, linear-gradient(96deg, #AC6115 0%, #9E7A19 100%));
+    background: linear-gradient(96deg, #834b13 0%, #c99915 100%);
 }
 
 .main {
@@ -51,7 +52,7 @@ font-size: 18px;
 }
 
 .header {
-    padding: 40px 0;
+    padding: 40px, 0px;
 }
 
 .header .container {
@@ -70,10 +71,12 @@ margin-left: 191px;
 .menu-list {
     list-style: none;
     display: flex;
+    cursor: pointer;
 }
 
 .menu-item {
     margin-right: 88px;
+    cursor: pointer;
 }
 
 .menu-item a {
@@ -85,6 +88,7 @@ margin-left: 191px;
 
 .menu-item a:hover {
     border-bottom: 2px solid white;
+    cursor: pointer;
 }
 
 .currency {
@@ -95,9 +99,9 @@ margin-left: 191px;
     width: 45px;
     height: 45px;
     text-align: center;
-    cursor: pointer;
+    cursor: auto;
     margin-left: auto;
-    font-size: 18px;
+    font-size: 20px;
     user-select: none;
 }
 
@@ -115,20 +119,25 @@ margin-left: 191px;
 }
 
 .main-small-info {
-    background: #03320F;
+    background: linear-gradient(96deg, #da2505 0%, #da2500 100%);
     border-radius: 100px;
-    padding: 12px 16px;
+    padding: 17px 14px;
     display: inline-block;
     font-size: 18px;
+    margin-left: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+
 }
 
 .main-title {
-    font-size: 120px;
-    font-family: 'Merriweather';
-    line-height: 156px;
-    letter-spacing: 3.60px;
+    font-size: 150px;
+    font-family: 'Merriweather', sans-serif;
+    line-height: 180px;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    margin-bottom: 56px;
+    margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .main-text {
@@ -139,7 +148,7 @@ margin-left: 191px;
 
 .main-image {
     position: absolute;
-    top: -123px;
-    left: calc(100% - 991px);
+    top: -75px;
+    left: calc(100% - 890px);
 
 }
