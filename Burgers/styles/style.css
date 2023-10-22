@@ -53,6 +53,7 @@ font-size: 18px;
 
 .header {
     padding: 40px, 0px;
+    cursor: auto;
 }
 
 .header .container {
@@ -81,7 +82,7 @@ margin-left: 191px;
 
 .menu-item a {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     cursor: pointer;
 }
@@ -99,7 +100,7 @@ margin-left: 191px;
     width: 45px;
     height: 45px;
     text-align: center;
-    cursor: auto;
+    cursor: pointer;
     margin-left: auto;
     font-size: 20px;
     user-select: none;
@@ -148,7 +149,47 @@ margin-left: 191px;
 
 .main-image {
     position: absolute;
-    top: -75px;
-    left: calc(100% - 890px);
+    top: -80px;
+    left: calc(100% - 815px);
 
+}
+
+.why {
+    background-image: url(../images/whybg.png);
+    background-position: top center;
+    background-size: initial;
+    padding-bottom: 180px;
+}
+
+.why-title {
+    text-align: center;
+    font-family: 'Marriweather' sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.why-items {
+    margin-top: 60px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 312px);
+    justify-content: center;
+}
+
+.why-item {
+    text-align: center;
+}
+
+.why-item-title {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 24px 0;
+}
+
+.why-item-text {
+    font-size: 16px;
+    line-height: 140%;
 }
