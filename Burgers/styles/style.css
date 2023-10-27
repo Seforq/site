@@ -46,6 +46,16 @@ body {
   background: linear-gradient(96deg, #834b13 0%, #c99915 100%);
 }
 
+.common-title {
+  text-align: center;
+  font-family: "Marriweather" sans-serif;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
 .main {
   background-image: url(../images/main_bg.png);
   background-position: top center;
@@ -160,16 +170,6 @@ body {
   padding-bottom: 180px;
 }
 
-.why-title {
-  text-align: center;
-  font-family: "Marriweather" sans-serif;
-  font-size: 64px;
-  line-height: 80px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-top: 50px;
-}
-
 .why-items {
   margin-top: 60px;
   display: grid;
@@ -191,4 +191,75 @@ body {
 .why-item-text {
   font-size: 16px;
   line-height: 140%;
+}
+.products {
+  background-image: url(../images/burgers_bg.png);
+  background-position: center;
+  background-size: 1400px;
+  padding-bottom: 180px;
+}
+
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
+  gap: 36px;
+  margin-top: 100px;
+}
+
+.products-item {
+  padding: 30px;
+  background: #211a16;
+  border-radius: 16px;
+  border: 1px solid #353535;
+}
+
+.product-item-image {
+  height: 250px;
+}
+
+.product-item-image img {
+  max-width: 100%;
+}
+
+products-item-title {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 24px 0;
+}
+
+.products-item-text {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+.product-item-extra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-item-price {
+  font-size: 35px;
+  line-height: 10px;
+  margin-bottom: 10px;
+}
+
+.products-item-weight {
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+}
+
+.button.product-button {
+  display: flex;
+  justify-content: center;
+  width: 182px;
+  height: 44px;
+  transform: translate(150px, 0);
+}
+
+.button.product-button span:first-child {
+  margin-right: 12px;
+  margin-bottom: -11px;
+  transform: translate(0px, -5px);
 }
