@@ -59,7 +59,8 @@ body {
 .main {
   background-image: url(../images/main_bg.png);
   background-position: top center;
-  overflow: hidden;
+  height: 1000px;
+
 }
 
 .header {
@@ -262,4 +263,15 @@ products-item-title {
   margin-right: 12px;
   margin-bottom: -11px;
   transform: translate(0px, -5px);
+}
+
+.products-title.common-title {
+  padding: 15px;
+  margin-top: -80px;
+}
+
+.button.product-buttons {
+  width: 244px;
+  padding: 20px;
+  transform: translate(-1px, 0);
 }
