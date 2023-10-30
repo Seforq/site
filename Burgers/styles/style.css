@@ -17,7 +17,7 @@ body {
   background-color: #191411;
   font-family: "Gilory", sans-serif;
   color: white;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .container {
@@ -59,9 +59,9 @@ body {
 .main {
   background-image: url(../images/main_bg.png);
   background-position: top center;
-  height: 1000px;
+  height: 1200px;
   background-repeat: no-repeat;
-
+ 
 }
 
 .header {
@@ -169,7 +169,7 @@ body {
   background-image: url(../images/whybg.png);
   background-position: top center;
   background-size: initial;
-  padding-bottom: 180px;
+  padding-bottom: 150px;
   background-repeat: no-repeat;
 }
 
@@ -200,6 +200,7 @@ body {
   background-position: center;
   background-size: 1400px;
   padding-bottom: 180px;
+  padding-top: 100px;
   background-repeat: no-repeat;
 }
 
@@ -283,12 +284,14 @@ products-item-title {
   background-image: url(../images/order_bg.png);
   background-position: top center;
   background-repeat: no-repeat;
+  padding-top: 150px;
   padding-bottom: 200px;
   overflow: hidden;
 }
 
 .order-title {
-  transform: translate(0px, -65px);
+  transform: translate(0px, -100px);
+  margin-bottom: 100px;
 }
 
 .order .container {
@@ -357,10 +360,8 @@ border: 1px solid transparent;
 height: 62px;
 }
 
-.footer {
-height: 200px;
-transform: scale(0.05);
+.footer{
+  transform: translate(550px, -850px);
 }
-
 
 
