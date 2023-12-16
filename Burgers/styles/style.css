@@ -298,64 +298,66 @@ products-item-title {
 }
 
 .order-image {
-  transform: translate(-320px, -170px);
-  top: 0;
-  right: calc(100% - 700px);
-  z-index: -1;
+ transform: translate(-320px, -170px);
+ top: 0;
+ right: calc(100% - 700px);
+ z-index: -1;
+  
 }
 
 .order-form {
-  border-radius: 16px;
-  border: 1px solid #353535;
-  background: #211a16;
-  margin-top: 60px;
-  width: 460px;
-  padding: 60px 40px;
-  box-sizing: border-box;
-  margin-left: 1000px;
-  transform: translate(-280px, -870px);
+ border-radius: 16px;
+ border: 1px solid #353535;
+ background: #211A16;
+ margin-top: 60px;
+ width: 460px;
+ padding: 60px 40px;
+ box-sizing: border-box;
+ margin-left: 1000px;
+ transform: translate(-280px, -870px);
 }
 
 .order-form-text {
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
+ font-size: 24px;
+ line-height: 29px;
+ text-align: center;
 }
 
 .order-form-inputs {
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
+ display: flex;
+ flex-direction: column;
+ margin-top: 40px;
 }
 
 .order-form-input {
-  width: 344px;
-  height: 62px;
-  background: linear-gradient(95.61deg, #da8023 0%, #e2b438 100%);
-  border-radius: 8px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ width: 344px;
+ height: 62px;
+ background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+ border-radius: 8px;
+ margin-bottom: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 .order-form-input input {
-  padding: 16px 10px;
-  background: #211a16;
-  border-radius: 8px;
-  color: white;
-  width: 342px;
-  height: 60px;
-  box-sizing: border-box;
-  outline: none;
-  border: 1px solid transparent;
+ padding: 16px 10px;
+ background: #211A16;
+ border-radius: 8px;
+ color: white;
+ width: 342px;
+ height: 60px;
+ box-sizing: border-box;
+ outline: none;
+ border: 1px solid transparent;
 }
 
 .order-form-inputs .button {
-  width: 344px;
-  height: 62px;
+ width: 344px;
+ height: 62px;
 }
 
-.footer {
-  transform: translate(550px, -850px);
+.footer{
+ transform: translate(550px, -850px);
+ cursor: pointer;
 }
